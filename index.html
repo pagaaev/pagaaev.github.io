@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <h1>Наши клиенты</h1> 
+
+<div class="client-container">
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>5 лет вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+    
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+
+    <div class="client">
+        <img src="stalik/img/rosatom.svg" alt="">
+        <p>1 год вместе</p>
+    </div>
+</div>
+    <div class="footer">
+            <div class="center">
+                <div class="thinking-icon">
+                    <span><img src="stalik/img/Group 99.svg" alt=""></span>
+                </div>
+                <div class="cloud">
+                    <span><p class="cloud-text">Среднее время работы с клиентом — 5 лет 💙</p></span>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <button class="button left"><i class="fas fa-arrow-left"></i></button>
+                <button class="button right"><i class="fas fa-arrow-right"></i></button>
+            </div>
+    </div>
+  
+    <div class="container">
+        <!-- Левая часть -->
+        <div class="left-side">
+          <h1>Обсудить проект</h1>
+          <p>Расскажите о проекте в форме справа или свяжитесь с нами напрямую.</p>
+          <p>hello@riverstart.ru"</p>
+          <p>Написать нам на почту</p>
+          <div class="contact-info">
+                <div class="contact">
+                    <img src="stalik/img/avatar.svg" alt="Логотип" class="logo">
+                    <p>@ekhohrin</p>
+                </div>
+                <p>Написать нашему аккаунт- директору в Telegram</p>
+            </div>
+
+            <div class="offices">
+                <div class="office">
+                <h3>Московский офис</h3>
+                <p>Новая пл., 6</p>
+                <p>8 (499) 112-46-21</p>
+                </div>
+                <div class="office">
+                <h3>Нижегородский офис</h3>
+                <p>ул. Рождественская, 26</p>
+                <p>8 (831) 2-889-354</p>
+                </div>
+            </div>
+
+            <div class="office-card">
+                <h3>Таллинский офис</h3>
+                <p>3 korrus, Metro Plaza, Viru väljak 2</p>
+                <p>+372 610-42-53</p>
+                <p>Oceanstart LLC Worldwide outsourcing and outstaffing</p>
+                <img src="" alt="">
+            </div>
+
+        </div>
+    
+        <div class="right-side">
+            <h2>Что вас интересует?</h2>
+      
+            <!-- Кнопки -->
+            <div class="buttons">
+              <div class="column">
+                <button>Сайт</button>
+                <button>Веб-сервис</button>
+                <button>Маркетинг</button>
+              </div>
+              <div class="column">
+                <button>Приложение</button>
+                <button>Брендинг</button>
+                <button>Что-то еще</button>
+              </div>
+            </div>
+      
+            <!-- Форма -->
+            <form>
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required>
+      
+              <label for="email">Почта</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="task">Опишите задачу своими словами</label>
+              <textarea id="task" name="task" required></textarea>
+      
+              <label for="budget">Бюджет (₽):</label>
+              <select id="budget" name="budget" required>
+                <option value="до 500к">до 500к</option>
+                <option value="до 1млн">до 1млн</option>
+                <option value=">1млн">>1млн</option>
+              </select>
+      
+              <!-- Прикрепить бриф и документ -->
+              <div class="file-attach">
+                <input type="file" id="brief" name="brief">
+                <label for="brief"><i class="fas fa-paperclip"></i> Прикрепить бриф</label>
+                <a href="https://docs.google.com" target="_blank"><i class="fas fa-file-alt"></i> Наш бриф в Google Docs</a>
+              </div>
+      
+              <!-- Кнопка отправки -->
+              <button type="submit">Оставить заявку</button>
+            </form>
+      
+            <!-- Политика обработки персональных данных -->
+            <p>Нажав на кнопку, вы соглашаетесь с <a href="#">политикой обработки персональных данных</a></p>
+          </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+ 
+    
+<script src="main.js"></script>
+
+</body>
+</html>
